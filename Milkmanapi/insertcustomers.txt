@@ -1,0 +1,12 @@
+db.customers.insert({
+	name: 'Prachi',
+	email:'prachikansal09@gmail.com',
+    })
+db.customers.insert({
+	name: 'kiran',
+	email:'kiranmehra831@gmail.com',
+   })
+db.customers.insert({
+	name: 'Pooja',
+	email:'prachikansal07@gmail.com',
+   })

@@ -1,0 +1,23 @@
+{
+  "name": "milkmanapi",
+  "version": "1.0.0",
+  "description": "Milkman api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node server.js"
+  },
+  "author": "Prachi Kansal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-promise-router": "^3.0.3",
+    "isodate": "^0.1.4",
+    "mongoose": "^5.4.21",
+    "morgan": "^1.9.1",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
