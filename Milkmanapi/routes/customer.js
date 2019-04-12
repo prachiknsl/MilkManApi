@@ -65,7 +65,7 @@ router.patch("/addquantity/:customerid",(req,res,next)=>{
 		});
 	});
 
-	const milkQuantity1={date: new Date('2019-03-08T21:46:11.629Z'), quantity:req.body.quantity}
+	const milkQuantity1={date: new Date(), quantity:req.body.quantity}
 		Customer.update({_id:id},{$push : {milkQuantity:milkQuantity1}}).exec().then(doc =>
 		{
 			console.log(doc)
