@@ -14,7 +14,7 @@
     "express": "^4.16.4",
     "express-promise-router": "^3.0.3",
     "isodate": "^0.1.4",
-    "mongoose": "^5.4.21",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "node-datetime": "^2.1.2",
     "nodemailer": "^6.0.0",
